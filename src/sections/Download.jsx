@@ -56,7 +56,7 @@ const Download = () => {
                 <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14">
                   <span className="download_preview-dot left-6 bg-p2" />
                   <span className="download_preview-dot left-11 bg-s3" />
-                  <span className="download_preview-dot left-16 bg-p1/15" />
+                  <span className="download_preview-dot left-16 bg-primary/15" />
 
                   <img
                     src="/images/screen.jpg"

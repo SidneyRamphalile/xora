@@ -286,7 +286,7 @@
   }
 
   .download_tech-link:hover .download_tech-icon svg path {
-    @apply fill-p1;
+    @apply fill-primary;
   }
 
   .download_preview-before {

@@ -9,10 +9,10 @@ const Footer = () => {
             <p className="opacity-70">Copyright, Sidney and Mike Software</p>
           </div>
           <div className="flex items-center justify-center sm:ml-auto">
-            <p className="legal-after relative mr-9 text-p5 transition-all duration-500 hover:text-p1">
+            <p className="legal-after relative mr-9 text-p5 transition-all duration-500 hover:text-primary">
               Privacy Policy
             </p>
-            <p className="text-p5 transition-all duration-500 hover:text-p1">
+            <p className="text-p5 transition-all duration-500 hover:text-primary">
               Terms of Use
             </p>
           </div>
