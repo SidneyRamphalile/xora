@@ -93,7 +93,7 @@ const Pricing = () => {
                   <div
                     className={clsx(
                       "small-2 rounded-20 relative z-2 mx-auto mb-6 border-2 px-4 py-1.5 uppercase",
-                      index === 1 ? "border-p3 text-p3" : "border-primary text-primary"
+                      index === 1 ? "border-secondary text-secondary" : "border-primary text-primary"
                     )}
                   >
                     {plan.title}
@@ -103,7 +103,7 @@ const Pricing = () => {
                     <div
                       className={clsx(
                         "h-num flex items-start",
-                        index === 1 ? "text-p3" : "text-primaryText"
+                        index === 1 ? "text-secondary" : "text-primaryText"
                       )}
                     >
                       ${" "}
@@ -151,7 +151,7 @@ const Pricing = () => {
                 </div>
 
                 {index === 1 && (
-                  <p className="small-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
+                  <p className="small-compact mt-9 text-center text-secondary before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
                     Limited time offer
                   </p>
                 )}
