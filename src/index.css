@@ -168,7 +168,7 @@
   }
 
   .dot {
-    @apply size-1.5 rounded-full bg-p2 max-lg:hidden;
+    @apply size-1.5 rounded-full bg-secondary max-lg:hidden;
   }
 
   .sidebar-before {
@@ -304,7 +304,7 @@
   /*  END of Download*/
   /*  START of Footer */
   .legal-after {
-    @apply after:absolute after:-right-5 after:top-[calc(50%-1px)] after:h-0.5 after:w-0.5 after:rounded-half after:bg-p2 after:content-[''];
+    @apply after:absolute after:-right-5 after:top-[calc(50%-1px)] after:h-0.5 after:w-0.5 after:rounded-half after:bg-secondary after:content-[''];
   }
 
   .social-icon {
