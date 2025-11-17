@@ -6,19 +6,23 @@ import Hero from './sections/Hero'
 import Pricing from './sections/Pricing'
 import Testimonials from './sections/Testimonials'
 import Footer from './sections/Footer'
+import { ThemeProvider } from './theme/ThemeContext'
 
 const App = () => {
   return (
-    <main className='overflow-hidden'>
-      <Header />
-      <Hero />
-      <Features/>
-      <Pricing/>
-      <Faq/>
-      <Testimonials/>
-      <Download/>
-      <Footer/>
-  </main>
+    <ThemeProvider>
+      <main className='overflow-hidden'>
+        <Header />
+        <Hero />
+        <Features/>
+        <Pricing/>
+        <Faq/>
+        <Testimonials/>
+        <Download/>
+        <Footer/>
+      </main>
+    </ThemeProvider>
+    
   )
 }
 

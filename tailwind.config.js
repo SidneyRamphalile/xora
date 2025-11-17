@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        p1: "#2EF2FF",
+
+         p1: "#2EF2FF",
         p2: "#3C52D9",
         p3: "#C8EA80",
         p4: "#EAEDFF",
@@ -14,9 +15,17 @@ export default {
         s3: "#334679",
         s4: "#1959AD",
         s5: "#263466",
+
+
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        primaryText: "var(--color-primary-text)",
+        subText: "var(--color-sub-text)",
+        background: "var(--color-background)",
+        divider: "var(--color-divider)",
         black: {
-          DEFAULT: "#000000",
-          100: "#05091D",
+          DEFAULT: "var(--color-black)",
+          100: "var(--color-black-100)",
         },
       },
       boxShadow: {
