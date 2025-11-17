@@ -28,7 +28,7 @@ const NavLink = ({ title }) => (
     spy
     smooth
     activeClass="nav-active"
-    className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-primary max-lg:my-4 max-lg:h5"
+    className="base-bold text-primaryText uppercase transition-colors duration-500 cursor-pointer hover:text-primary max-lg:my-4 max-lg:h5"
   >
     {title}
   </LinkScroll>

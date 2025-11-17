@@ -13,19 +13,19 @@ const Pricing = () => {
       <Element name="pricing">
         <div className="container">
           <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
-            <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
+            <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-primaryText max-md:mb-11 max-sm:max-w-sm">
               Flexible pricing for teams of all sizes
             </h3>
 
             <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
-                className={clsx("pricing-head_btn", monthly && "text-p4")}
+                className={clsx("pricing-head_btn", monthly && "text-primaryText")}
                 onClick={() => setMonthly(true)}
               >
                 Monthly
               </button>
               <button
-                className={clsx("pricing-head_btn", !monthly && "text-p4")}
+                className={clsx("pricing-head_btn", !monthly && "text-primaryText")}
                 onClick={() => setMonthly(false)}
               >
                 Annual
@@ -103,7 +103,7 @@ const Pricing = () => {
                     <div
                       className={clsx(
                         "h-num flex items-start",
-                        index === 1 ? "text-p3" : "text-p4"
+                        index === 1 ? "text-p3" : "text-primaryText"
                       )}
                     >
                       ${" "}
@@ -123,7 +123,7 @@ const Pricing = () => {
 
                 <div
                   className={clsx(
-                    "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-p4",
+                    "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-primaryText",
                     index === 1 && "border-b"
                   )}
                 >

@@ -208,7 +208,7 @@
   }
 
   .pricing-head_btn {
-    @apply base-bold relative z-2 h-16 flex-1 uppercase text-p5 transition-colors duration-500 hover:text-p4;
+    @apply base-bold relative z-2 h-16 flex-1 uppercase text-p5 transition-colors duration-500 hover:text-primaryText;
   }
 
   .pricing-head_btn_before {
@@ -319,7 +319,7 @@
   /* Light theme (default) */
   --color-primary: #0044ff;
   --color-secondary: #3C52D9;
-  --color-primary-text: #1a1a1a;
+  --color-primary-text: #EAEDFF;
   --color-sub-text: #4a4a4a;
   --color-background: #ffffff;
   --color-divider: #e5e5e5;
