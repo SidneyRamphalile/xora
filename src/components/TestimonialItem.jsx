@@ -20,7 +20,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
         </div>
         <div>
           <h4 className="body-2 mb-0.5 text-primary">{item.name}</h4>
-          <p className="small-compact uppercase text-s3">{item.role}</p>
+          <p className="small-compact uppercase text-borderColour">{item.role}</p>
         </div>
       </div>
     </div>

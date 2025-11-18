@@ -228,7 +228,7 @@
   }
 
   .pricing-plan_odd {
-    @apply odd:border-s3 odd:bg-s1 lg:odd:mt-12;
+    @apply odd:border-borderColour odd:bg-s1 lg:odd:mt-12;
   }
 
   .pricing-plan_even {

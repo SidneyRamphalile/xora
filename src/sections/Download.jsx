@@ -34,7 +34,7 @@ const Download = () => {
                   >
                     <a
                       href={url}
-                      className="size-22 download_tech-icon_before relative flex items-center justify-center rounded-half border-2 border-s3 bg-s1 transition-borderColor duration-500"
+                      className="size-22 download_tech-icon_before relative flex items-center justify-center rounded-half border-2 border-borderColour bg-s1 transition-borderColor duration-500"
                     >
                       <span className="absolute -top-2 rotate-90">
                         <Marker />
@@ -55,7 +55,7 @@ const Download = () => {
               <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
                 <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14">
                   <span className="download_preview-dot left-6 bg-secondary" />
-                  <span className="download_preview-dot left-11 bg-s3" />
+                  <span className="download_preview-dot left-11 bg-borderColour" />
                   <span className="download_preview-dot left-16 bg-primary/15" />
 
                   <img
