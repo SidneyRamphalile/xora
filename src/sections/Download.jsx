@@ -52,7 +52,7 @@ const Download = () => {
             </div>
 
             <div className="mb-10 max-md:hidden">
-              <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
+              <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-borderColour p-6">
                 <div className="relative rounded-3xl bg-backgroundColour px-6 pb-6 pt-14">
                   <span className="download_preview-dot left-6 bg-secondary" />
                   <span className="download_preview-dot left-11 bg-borderColour" />

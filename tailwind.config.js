@@ -4,10 +4,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        s1: "#080D27",
-        s5: "#263466",
-
-
         primary: "rgb(var(--color-primary) / <alpha-value>)",
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         primaryText: "rgb(var(--color-primary-text) / <alpha-value>)",
