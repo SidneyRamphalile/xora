@@ -105,7 +105,7 @@ const NavLink = ({ title }) => (
         </div>
 
         <button
-          className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
+          className="lg:hidden z-2 size-10 border-2 border-secondary/25 rounded-full flex justify-center items-center"
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img

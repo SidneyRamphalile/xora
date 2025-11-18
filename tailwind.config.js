@@ -5,16 +5,15 @@ export default {
     extend: {
       colors: {
         s1: "#080D27",
-        s4: "#1959AD",
         s5: "#263466",
 
 
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-        primaryText: "var(--color-primary-text)",
-        subText: "var(--color-sub-text)",
-        background: "var(--color-background)",
-        divider: "var(--color-divider)",
+        primary: "rgb(var(--color-primary) / <alpha-value>)",
+        secondary: "rgb(var(--color-secondary) / <alpha-value>)",
+        primaryText: "rgb(var(--color-primary-text) / <alpha-value>)",
+        subText: "rgb(var(--color-sub-text) / <alpha-value>)",
+        background: "rgb(var(--color-background) / <alpha-value>)",
+        divider: "rgb(var(--color-divider) / <alpha-value>)",
         borderColour: "#0C1838",
         black: {
           DEFAULT: "var(--color-black)",

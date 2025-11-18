@@ -33,7 +33,7 @@ const FaqItem = ({ item, index }) => {
 
         <div
           className={clsx(
-            "faq-icon relative flex size-12 items-center justify-center rounded-full border-2 border-borderColour shadow-400 transition-all duration-500 group-hover:border-s4",
+            "faq-icon relative flex size-12 items-center justify-center rounded-full border-2 border-borderColour shadow-400 transition-all duration-500 group-hover:border-secondary",
             active && "before:bg-primary after:rotate-0 after:bg-primary"
           )}
         >

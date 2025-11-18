@@ -17,7 +17,7 @@ const Pricing = () => {
               Flexible pricing for teams of all sizes
             </h3>
 
-            <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
+            <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-secondary/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
                 className={clsx("pricing-head_btn", monthly && "text-primaryText")}
                 onClick={() => setMonthly(true)}
