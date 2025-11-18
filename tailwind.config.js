@@ -5,7 +5,6 @@ export default {
     extend: {
       colors: {
         s1: "#080D27",
-        s2: "#0C1838",
         s3: "#334679",
         s4: "#1959AD",
         s5: "#263466",
@@ -17,6 +16,7 @@ export default {
         subText: "var(--color-sub-text)",
         background: "var(--color-background)",
         divider: "var(--color-divider)",
+        borderColour: "#0C1838",
         black: {
           DEFAULT: "var(--color-black)",
           100: "var(--color-black-100)",

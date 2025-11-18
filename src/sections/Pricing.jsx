@@ -12,7 +12,7 @@ const Pricing = () => {
     <section>
       <Element name="pricing">
         <div className="container">
-          <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
+          <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-borderColour bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-primaryText max-md:mb-11 max-sm:max-w-sm">
               Flexible pricing for teams of all sizes
             </h3>
@@ -123,7 +123,7 @@ const Pricing = () => {
 
                 <div
                   className={clsx(
-                    "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-primaryText",
+                    "body-1 relative z-2 mb-10 w-full border-b-borderColour pb-9 text-center text-primaryText",
                     index === 1 && "border-b"
                   )}
                 >

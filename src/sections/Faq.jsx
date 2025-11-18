@@ -18,12 +18,12 @@ const Faq = () => {
             </p>
           </div>
 
-          <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2" />
+          <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-borderColour" />
         </div>
 
-        <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1">
+        <div className="faq-glow_before relative z-2 border-2 border-borderColour bg-s1">
           <div className="container flex gap-10 max-lg:block">
-            <div className="rounded-half absolute -top-10 left-[calc(50%-40px)] z-4 flex size-20 items-center justify-center border-2 border-s2 bg-s1">
+            <div className="rounded-half absolute -top-10 left-[calc(50%-40px)] z-4 flex size-20 items-center justify-center border-2 border-borderColour bg-s1">
               <img src="/images/faq-logo.svg" alt="logo" className="size-1/2" />
             </div>
 
@@ -40,7 +40,7 @@ const Faq = () => {
             </div>
           </div>
 
-          <div className="faq-lin_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden" />
+          <div className="faq-lin_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-borderColour max-lg:hidden" />
         </div>
       </Element>
     </section>
