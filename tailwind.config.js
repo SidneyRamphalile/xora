@@ -12,7 +12,7 @@ export default {
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         primaryText: "rgb(var(--color-primary-text) / <alpha-value>)",
         subText: "rgb(var(--color-sub-text) / <alpha-value>)",
-        background: "rgb(var(--color-background) / <alpha-value>)",
+        backgroundColour: "rgb(var(--color-background) / <alpha-value>)",
         divider: "rgb(var(--color-divider) / <alpha-value>)",
         borderColour: "#0C1838",
         black: {

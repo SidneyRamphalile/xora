@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    @apply bg-s1;
+    @apply bg-backgroundColour;
   }
 
   body {
@@ -228,7 +228,7 @@
   }
 
   .pricing-plan_odd {
-    @apply odd:border-borderColour odd:bg-s1 lg:odd:mt-12;
+    @apply odd:border-borderColour odd:bg-backgroundColour lg:odd:mt-12;
   }
 
   .pricing-plan_even {
@@ -238,7 +238,7 @@
   /* END of Pricing */
   /* START of FAQ */
   .faq-line_after {
-    @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2.5 after:rounded-half after:border-2 after:border-borderColour after:bg-s1 after:content-[''];
+    @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2.5 after:rounded-half after:border-2 after:border-borderColour after:bg-backgroundColour after:content-[''];
   }
 
   .faq-glow_before {
@@ -264,7 +264,7 @@
   }
 
   .testimonials_group-after {
-    @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-s5 after:bg-s1 after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
+    @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-s5 after:bg-backgroundColour after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
   }
 
   /* END of Testimonials */
@@ -274,7 +274,7 @@
   }
 
   .download_tech-link_last-after {
-    @apply last:after:pointer-events-none last:after:absolute last:after:left-[223px] last:after:top-[calc(50%-5px)] last:after:z-2 last:after:size-2.5 last:after:rounded-half last:after:border-2 last:after:border-s5 last:after:bg-s1 last:after:content-[''] last:after:max-xl:left-[187px] last:after:max-lg:left-[163px] last:after:max-md:hidden;
+    @apply last:after:pointer-events-none last:after:absolute last:after:left-[223px] last:after:top-[calc(50%-5px)] last:after:z-2 last:after:size-2.5 last:after:rounded-half last:after:border-2 last:after:border-s5 last:after:bg-backgroundColour last:after:content-[''] last:after:max-xl:left-[187px] last:after:max-lg:left-[163px] last:after:max-md:hidden;
   }
 
   .download_tech-icon {
@@ -308,7 +308,7 @@
   }
 
   .social-icon {
-    @apply flex size-10 items-center justify-center rounded-full border-2 border-secondary/25 bg-s1/5 transition-all duration-500 hover:border-secondary;
+    @apply flex size-10 items-center justify-center rounded-full border-2 border-secondary/25 bg-backgroundColour/5 transition-all duration-500 hover:border-secondary;
   }
 
   /*  END of Footer*/
@@ -321,7 +321,7 @@
   --color-secondary: 200 234 128; /* #C8EA80 */
   --color-primary-text: 234 237 255; /* #EAEDFF */
   --color-sub-text: 196 203 245; /* #C4CBF5 */
-  --color-background: 255 255 255; /* #ffffff */
+  --color-background: 8 13 39; /* #ffffff */
   --color-divider: 229 229 229; /* #e5e5e5 */
   --color-black: 0 0 0; /* #000000 */
   --color-black-100: 5 9 29; /* #05091D */
