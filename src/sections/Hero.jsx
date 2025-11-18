@@ -1,9 +1,36 @@
 import { Element, Link as LinkScroll } from 'react-scroll'
 import Button from '../components/Button'
-
+import {useTheme} from '../theme/ThemeContext.jsx'
 const Hero = () => {
+    const { theme, toggleTheme, setTheme, setCustomTheme } = useTheme();
+    const applyCustomTheme = () => {
+    setCustomTheme({
+        '--color-primary': '255 107 107',      /* #FF6B6B */
+        '--color-secondary': '78 205 196',     /* #4ECDC4 */
+        '--color-primary-text': '255 255 255', /* #FFFFFF */
+        '--color-sub-text': '224 224 224',     /* #E0E0E0 */
+        '--color-background': '26 26 26',      /* #1A1A1A */
+        '--divider': '51 51 51',         /* #333333 */
+        '--color-black': '0 0 0',              /* #000000 */
+        '--color-black-100': '10 10 10',       /* #0A0A0A */
+    });
+  };
+
   return (
     <section className="relative pt-60 pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32">
+        <div className="p-4">
+      <button 
+      style={{ marginRight: '16px' }}
+        onClick={toggleTheme}
+        className="bg-primary text-primaryText p-2 rounded"
+      >
+        Current theme: {theme}
+      </button>
+      <button style={{ marginRight: '16px' }} onClick={() => setTheme('light')}>Light</button>
+      <button style={{ marginRight: '16px' }} onClick={() => setTheme('dark')}>Dark</button>
+      <button style={{ marginRight: '16px' }} onClick={() => setTheme('testCustom')}>Test Custom</button>
+      <button onClick={applyCustomTheme}>Custom Theme</button>
+    </div>
         <Element name='hero'>
             <div className='container'>
                 <div className='relative z-2 max-w-512 max-lg:max-w-388'>

@@ -316,12 +316,12 @@
 
 /* In your index.css or App.css */
 :root {
-  /* Light theme (default) */
+  /* Dark theme (default) */
   --color-primary: 0 68 255; /* #0044ff */
   --color-secondary: 200 234 128; /* #C8EA80 */
   --color-primary-text: 234 237 255; /* #EAEDFF */
   --color-sub-text: 196 203 245; /* #C4CBF5 */
-  --color-background: 8 13 39; /* #ffffff */
+  --color-background: 8 13 39; /* #080D27 */
   --color-divider: 229 229 229; /* #e5e5e5 */
   --color-black: 0 0 0; /* #000000 */
   --color-black-100: 5 9 29; /* #05091D */
@@ -329,24 +329,36 @@
 
 /* Dark theme */
 [data-theme="dark"] {
-  --color-primary: #0044ff;
-  --color-secondary: #3C52D9;
-  --color-primary-text: #EAEDFF;
-  --color-sub-text: #C4CBF5;
-  --color-background: #080D27;
-  --color-divider: #0C1838;
-  --color-black: #000000;
-  --color-black-100: #05091D;
+  --color-primary: 0 68 255; /* #0044ff */
+  --color-secondary: 200 234 128; /* #C8EA80 */
+  --color-primary-text: 234 237 255; /* #EAEDFF */
+  --color-sub-text: 196 203 245; /* #C4CBF5 */
+  --color-background: 8 13 39; /* #080D27 */
+  --color-divider: 229 229 229; /* #e5e5e5 */
+  --color-black: 0 0 0; /* #000000 */
+  --color-black-100: 5 9 29; /* #05091D */
+}
+
+/* Dark theme */
+[data-theme="light"] {
+  --color-primary: 0 68 255; /* #0044ff */
+  --color-secondary: 200 234 128; /* #C8EA80 */
+  --color-primary-text: 234 237 255; /* #EAEDFF */
+  --color-sub-text: 196 203 245; /* #C4CBF5 */
+  --color-background: 255 255 255; /* #080D27 */
+  --color-divider: 229 229 229; /* #e5e5e5 */
+  --color-black: 0 0 0; /* #000000 */
+  --color-black-100: 5 9 29; /* #05091D */
 }
 
 /* Custom theme example */
-[data-theme="custom"] {
-  --color-primary: #22c55e;
-  --color-secondary: #16a34a;
-  --color-primary-text: #f0fdf4;
-  --color-sub-text: #bbf7d0;
-  --color-background: #052e16;
-  --color-divider: #14532d;
-  --color-black: #000000;
-  --color-black-100: #05091D;
+[data-theme="testCustom"] {
+  --color-primary: 0 68 255; /* #0044ff */
+  --color-secondary: 200 234 128; /* #C8EA80 */
+  --color-primary-text: 234 237 255; /* #EAEDFF */
+  --color-sub-text: 196 203 245; /* #C4CBF5 */
+  --color-background: 21 255 38; /* #080D27 */
+  --color-divider: 229 229 229; /* #e5e5e5 */
+  --color-black: 0 0 0; /* #000000 */
+  --color-black-100: 5 9 29; /* #05091D */
 }
