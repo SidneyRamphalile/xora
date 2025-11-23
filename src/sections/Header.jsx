@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link as LinkScroll } from 'react-scroll';
+import { useNavigate } from "react-router-dom";
 import clsx from 'clsx';
 
 
@@ -20,7 +21,38 @@ useEffect(() => {
   }
 }, []);
 
-const NavLink = ({ title }) => (
+// const NavLink = ({ title }) => {
+//   const navigate = useNavigate();
+
+//   const handleClick = () => {
+//     setIsOpen(false);
+    
+//     if (title.toLowerCase() === 'home') {
+//       navigate('/'); // Navigate to home route
+//     }
+//   };
+
+//   if (title.toLowerCase() === 'home') {
+//     return (
+//       <a
+//         onClick={handleClick}
+//         className="base-bold text-primaryText uppercase transition-colors duration-500 cursor-pointer hover:text-primary max-lg:my-4 max-lg:h5"
+//       >
+//         {title}
+//       </a>
+//     );
+//   }
+
+
+const NavLink = ({ title }) => {
+  if (title.toLowerCase() === 'home') {
+    return (
+      <a href='/home'>Home</a>
+    );
+  }
+  
+  else {
+ return (
   <LinkScroll
     onClick={() => setIsOpen(false)}
     to={title}
@@ -32,7 +64,9 @@ const NavLink = ({ title }) => (
   >
     {title}
   </LinkScroll>
-);
+ );
+}
+};
 
 
 
@@ -80,7 +114,7 @@ const NavLink = ({ title }) => (
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="download" />
+                  <NavLink title="home" />
                 </li>
               </ul>
             </nav>

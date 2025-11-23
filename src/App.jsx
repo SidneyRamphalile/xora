@@ -1,29 +1,20 @@
-import Download from './sections/Download'
-import Faq from './sections/Faq'
-import Features from './sections/Features'
-import Header from './sections/Header'
-import Hero from './sections/Hero'
-import Pricing from './sections/Pricing'
-import Testimonials from './sections/Testimonials'
-import Footer from './sections/Footer'
-import { ThemeProvider } from './theme/ThemeContext'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "./theme/ThemeContext";
+import LandingPage from "./pages/LandingPage";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-    <ThemeProvider>
-      <main className='overflow-hidden'>
-        <Header />
-        <Hero />
-        <Features/>
-        <Pricing/>
-        <Faq/>
-        <Testimonials/>
-        <Download/>
-        <Footer/>
-      </main>
-    </ThemeProvider>
-    
-  )
-}
+    <BrowserRouter>
+      <ThemeProvider>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
 
-export default App
+          <Route path="/home" element={<HomePage />} />
+        </Routes>
+      </ThemeProvider>
+    </BrowserRouter>
+  );
+};
+
+export default App;
