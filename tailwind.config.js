@@ -10,7 +10,7 @@ export default {
         subText: "rgb(var(--color-sub-text) / <alpha-value>)",
         backgroundColour: "rgb(var(--color-background) / <alpha-value>)",
         divider: "rgb(var(--color-divider) / <alpha-value>)",
-        borderColour: "#0C1838",
+        borderColour: "rgb(var(--color-border) / <alpha-value>)",
         black: {
           DEFAULT: "var(--color-black)",
           100: "var(--color-black-100)",

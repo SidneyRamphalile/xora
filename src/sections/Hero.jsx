@@ -10,7 +10,8 @@ const Hero = () => {
         '--color-primary-text': '255 255 255', /* #FFFFFF */
         '--color-sub-text': '224 224 224',     /* #E0E0E0 */
         '--color-background': '26 26 26',      /* #1A1A1A */
-        '--divider': '51 51 51',         /* #333333 */
+        '--color-divider': '51 51 51',         /* #333333 */
+        '--color-border': '51 51 51',         /* #333333 */
         '--color-black': '0 0 0',              /* #000000 */
         '--color-black-100': '10 10 10',       /* #0A0A0A */
     });
